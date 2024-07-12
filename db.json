@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "id": "873e4ef2-b764-41a6-9dcc-b904d5d53078",
+      "name": "Game Boy Classic",
+      "price": 60,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc6SR5mzkbEeD_miPsxpbpu1A2GObhPCF0ng&s"
+    },
+    {
+      "id": "1f0c8c35-34cf-49a9-9171-6dcf0ca28d32",
+      "name": "Game Boy Donkey Kong",
+      "price": 20,
+      "img": "https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/V5JBKROYRJIX5PJYW3F4DO6LEY.jpg"
+    },
+    {
+      "id": "c08ee1ab-c08e-4039-9e39-1711e7e3f200",
+      "name": "psp",
+      "price": 100,
+      "img": "https://m.media-amazon.com/images/I/615gWr9r13L.jpg"
+    },
+    {
+      "id": "ba024d1e-1871-4361-bec5-a0e10dfff386",
+      "name": "psp GTA:Lberty city stories",
+      "price": 40,
+      "img": "https://i.3djuegos.com/juegos/1380/gta_liberty_city_stories/fotos/ficha/gta_liberty_city_stories-1680783.webp"
+    },
+    {
+      "id": "4b3f0fba-22d5-4969-b4fc-1b70961581f2",
+      "name": "Xbox classic",
+      "price": 100,
+      "img": "https://teknoscene.com/wp-content/uploads/2021/09/Xbox.png"
+    },
+    {
+      "id": "e99fb710-1950-4ccb-aa3a-954153a9d67e",
+      "name": "Xbox classic Assassin´s Creed",
+      "price": 30,
+      "img": "https://m.media-amazon.com/images/I/61l5HSx+vqL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 1720038342351,
+      "name": "fffdf",
+      "price": "fdf",
+      "img": "fdfdf"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style/normalize.css">
+    <link rel="stylesheet" href="./src/style/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./public/img/header-logo.png" alt="logo" class="header-img">
+        <h1 class="header-h1">AluraGeek</h1>
+    </header>
+    <main class="main">
+<section class="section">
+    <h2 class="section-h2">AGREGAR PRODUCTOS:</h2>
+    <form id="product-form" class="section-form">
+        <input type="text" id="name" name="name" placeholder="nombre..." class="section-input" required>
+        <input type="text" id="price" name="price" placeholder="precio..." class="section-input" required>
+        <input type="text" id="img" name="img" placeholder="imagen..." class="section-input" required>
+        <div class="section-action">
+
+            <input type="submit" value="Enviar" class="section-button">
+            <input type="reset" value="Limpiar" class="section-button">
+        </div>
+    </form>
+</section>
+<section class="section">
+    <h2 class="section-h2">MIS PRODUCTOS:</h2>
+    <div class="container">
+        <!-- <div class="card">
+            <img src="./public/img/image 2.png" alt="img2" class="card-img">
+            <h3 class="card-title">Game Boy Classic</h3>
+            <p class="card-price">$ 
+            <span class="card-price-number">60</span></p>
+            <img src="./public/img/icon.png" alt="delete" class="card-icon">
+
+        </div>
+        <div class="card">
+            <img src="./public/img/image 2.png" alt="img2" class="card-img">
+            <h3 class="card-title">Game Boy Classic</h3>
+            <p class="card-price">$ 
+                <span class="card-price-number">60</span></p>
+            <img src="./public/img/icon.png" alt="delete" class="card-icon">
+
+        </div>
+        <div class="card">
+            <img src="./public/img/image 2.png" alt="img2" class="card-img">
+            <h3 class="card-title">Game Boy Classic</h3>
+            <p class="card-price">$ 
+                <span class="card-price-number">60</span></p>
+            <img src="./public/img/icon.png" alt="delete" class="card-icon">
+
+        </div>
+        <div class="card">
+            <img src="./public/img/image 2.png" alt="img2" class="card-img">
+            <h3 class="card-title">Game Boy Classic</h3>
+            <p class="card-price">$ 
+                <span class="card-price-number">60</span></p>
+            <img src="./public/img/icon.png" alt="delete" class="card-icon">
+
+        </div> -->
+    </div>
+</section>
+        </main>
+    <footer class="footer">
+        <div class="footer-main">
+            <img src="./public/img/header-logo.png" alt="logo" class="footer-img">
+            <h1 class="footer-h1">AluraGeek</h1>
+        </div>
+        <h3 class="footer-h3">DESARROLLADO POR JERIKAT PIMENTEL</h3>
+        <h4 class="footer-h4">ALURA LATAM-2024</h4>
+    </footer>
+    <script type="module" src="/src/js/index.js"></script>
+</body>
